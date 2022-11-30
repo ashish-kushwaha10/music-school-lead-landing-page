@@ -1,0 +1,1788 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M7L6RQT');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="shortcut icon" type="image" href="image/MSMS LOGO.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MSMS</title>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7L6RQT" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <nav id="nav-bg" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="image/MSMS LOGO.png" alt=""></a>
+            <a href="tel:+12093227262">
+                <button id="nav-call-button" class="btn" type="button"><i class="bi bi-telephone-fill"></i> Call Us
+                    <span style="font-size:1px ; color: rgb(29, 83, 230);">+1 (209) 322-7262</span></button>
+            </a>
+            <div id="set-buttons">
+                <div class=" d-md-flex d-none">
+
+                    <a href="#meet">
+                        <button id="nav-button1" class="btn-lg me-md-4" type="button">Request info</button>
+                    </a>
+                    <a href="tel:+12093227262">
+                        <button id="nav-button2" class="btn-lg " type="button">Call us <span
+                                style="font-size:1px ; color: rgb(34, 88, 235);">+1 (209) 322-7262</span></button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:8851221982"><i class="fa fa-phone"></i>
+        </a>
+    </section> -->
+
+
+    <!-- Sticky button for mobile -->
+
+    <div id="decoration">
+        <a href="tel:+12093227262">
+            <div class="sticky"><i class="bi bi-telephone-fill"></i> Call Us, Get 30 Days Free Trial<span
+                style="font-size:1px ; color: rgb(1, 216, 80);">+1 (209) 322-7262</span>
+            </div>
+        </a>
+    </div>
+
+    <!--automatic  Pop up -->
+    <div class="container ">
+        <div class="login-popup">
+            <div class="box">
+                <!-- <div class="img-area">
+                    <div class="img">
+                    </div>
+                    <h1 style="color: black; padding: 1.5rem;" class="text-center  georgia-font"><b>Take one step to get
+                            all your Marketing Solution </b> </h1>
+                </div> -->
+                <div class="pop-form">
+                    <div onclick="showSideOffer()" id="show-off" class="close">&times;</div>
+                    <h1 style="text-align: justify;"><b>Schedule a Meeting with our ad Expert to get free trial</b></h1>
+                    <form action="mail3.php" method="POST">
+                        <div class="form-group ">
+                            <input name="schoolName" type="text" placeholder="School Name" class="pop-form-control"
+                                required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="name" type="text" placeholder="Name" class="pop-form-control" required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="email" type="email" placeholder="Email" class="pop-form-control" required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="mobileNo" type="text" placeholder="Mobile no." class="pop-form-control"
+                                required>
+                        </div>
+                        <!-- <div class="form-group ">
+                            <select name="dropdown" style="background-color: white;"
+                                class="pop-form-control dropdown-toggle " aria-label="Default select example">
+                                <option value="">Service you are in interested in </option>
+                                <option value="Google Adword">Google Adword</option>
+                                <option value="Facebook Ads">Facebook Ads</option>
+                                <option value="Website development">Website development</option>
+                                <option value="Lead Generation">Lead Generation</option>
+                                <option value="Digital marketng">Digital marketng</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                            </select>
+                        </div> -->
+                        <button type="submit" name="submit" class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- click pop up -->
+    <div id="popup-cont" class="container ">
+        <div class="login-popup2">
+            <div class="box2">
+                <!-- <div class="img-area">
+                <div class="img">
+                </div>
+                <h1 style="color: black; padding: 1.5rem;" class="text-center  georgia-font"><b>Take one step to get
+                        all your Marketing Solution </b> </h1>
+            </div> -->
+                <div class="pop-form">
+                    <div onclick="closePopup()" id="show-off" class="close">&times;</div>
+                    <h1 style="text-align: center;"><b>Schedule a Meeting with our ad Expert to get free trial</b></h1>
+                    <br>
+                    <form action="mail3.php" method="POST">
+                        <div class="form-group ">
+                            <input name="schoolName" type="text" placeholder="School Name" class="pop-form-control"
+                                required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="name" type="text" placeholder="Name" class="pop-form-control" required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="email" type="email" placeholder="Email" class="pop-form-control" required>
+                        </div>
+                        <div class="form-group ">
+                            <input name="mobileNo" type="text" placeholder="Mobile no." class="pop-form-control"
+                                required>
+                        </div>
+                        <!-- <div class="form-group ">
+                            <select name="dropdown" style="background-color: white;"
+                                class="pop-form-control dropdown-toggle " aria-label="Default select example">
+                                <option value="">Service you are in interested in </option>
+                                <option value="Google Adword">Google Adword</option>
+                                <option value="Facebook Ads">Facebook Ads</option>
+                                <option value="Website development">Website development</option>
+                                <option value="Lead Generation">Lead Generation</option>
+                                <option value="Digital marketng">Digital marketng</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                            </select>
+                        </div> -->
+                        <button type="submit" name="submit" class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function clickPopup() {
+            document.getElementById("popup-cont").style.display = "block"
+        }
+
+        function closePopup() {
+            document.getElementById("popup-cont").style.display = "none"
+        }
+    </script>
+
+
+    <!-- section1 -->
+
+
+    <div id="front-img">
+        <div class=" container1 pt-lg-1">
+            <br><br><br>
+            <h1 class="text-white text-center">We Help</h1>
+            <p><span><b>MUSIC SCHOOL OWNERS </b></span>
+
+                <!-- <span id="toget">in-class</span> -->
+                <!-- <br class="br-break"> -->
+
+                <!-- <span id="mark1">for all your Marketing Campaign</span> -->
+            </p>
+            <h2 class="text-white text-center"><b> Thrive With Our
+
+                    All-In-One Services</b></h2>
+            <p><span class="typed-text"></span>
+
+                <span class="cursor">&nbsp;</span>
+                <br>
+            </p>
+            <h6 style="text-align: center; color: white;padding: 0 50px;"><b>TAKE YOUR MUSIC SCHOOL TO THE NEXT LEVEL
+                </b> </h6>
+            <br>
+            <div class=" text-center">
+                <button onclick="clickPopup()" class="btn-1">
+                    <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                    <h3><b>BOOK YOUR SLOT</b> </h3>
+
+                </button>
+            </div>
+            <br>
+            <h3 style="text-align: center; color: white;padding: 0 50px;"><b>Only For First 10
+                </b> </h3>
+
+        </div>
+        <br><br>
+    </div>
+
+
+    <!-- <div class="container-fluid mt-5 pt-5 pt-lg-0 mt-lg-0">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-11 col-lg-4 mt-4 mt-lg-0">
+                <img src="image/ad1.png" class="img-fluid d-none d-lg-block" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- section 2 -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col text-center">
+                <h4><b>We're In The Business Of Helping
+                        Your School Growth</b> </h4>
+                <p>Music School Marketing Solution
+                    is the first-ever all-in-one platform that will
+                    give you the tools, support and resources
+                    you need to succeed with your business.</p>
+            </div>
+        </div>
+        <p onclick="clickPopup()" style="color: #1a73e8; text-align: center;"><b> Schedule a meeting</b></p>
+    </div>
+    <br>
+
+
+    <div class="container-fluid bg-blue">
+        <div class="row justify-content-center p-3">
+            <div style="border-style: dashed;" class="col-11 col-lg-9 text-center">
+                <p>
+                    <span class="big-num"><b>50+</b></span> <br>
+                    <span class="value1"><b>SCHOOLS</b></span>
+                    <br>
+                    <span class="big-num"><b>49,000+</b></span> <br>
+                    <span class="value1"><b>LEADS</b></span>
+                    <br>
+                    <span class="big-num"><b>22,000+</b></span> <br>
+                    <span class="value1"><b>CONVERSIONS</b></span>
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 text-center">
+                <p class="mt-lg-4 big-text0">
+                    <b> This Is Everything
+                        Your Music Education Business Needs To Succeed</b>
+                </p>
+                <h3>We bring all the things you need to solve your digital marketing problems in one place.</h3>
+
+            </div>
+        </div>
+    </div>
+    <div class=" col-wrapper3 par-set">
+        <section class="p-col3">
+
+            <div class="column3">
+                <img src="image/linkbuilt.png" alt="">
+                <br>
+                <h4><b>SALES FUNNEL MARKETTING</b> </h4>
+                <p>funnels are a useful tool to help you
+                    visualize the path customers take from
+                    first finding out about your brand
+                    to converting. </p>
+            </div>
+
+            <div class="column3">
+                <img src="image/support.png" alt="">
+                <br>
+                <h4><b>LANDING PAGE BUILDING</b> </h4>
+                <p>We Build your landing page visually interesting
+                    Focus on one Call to Action (CTA).
+                    Give pages an authentic proof of value
+                    Improve your page load speed.
+
+                </p>
+            </div>
+
+            <div class="column3">
+                <img src="image/seo.png" alt="">
+                <br>
+                <h4><b>LEAD GENERATION</b> </h4>
+                <p>We give you qulity leads which will
+                    generat valubale student interest for a
+                    product or service with the goal
+                    of turning that interest into a sale </p>
+            </div>
+            <div class="column3">
+                <img src="image/linkbuilt.png" alt="">
+                <br>
+                <h4><b>GOOGLE ADS</b> </h4>
+                <p>We target prospective students' and
+                    parents' searches directly
+                    optimize Your budget for geting
+                    your advertising goals in your budget </p>
+            </div>
+
+            <div class="column3">
+                <img src="image/support.png" alt="">
+                <br>
+                <h4><b>FACEBOOK ADS</b> </h4>
+                <p>We target prospective students and
+                    parents' searches directly
+                    optimize Your budget for geting
+                    your advertising goals in your budget
+
+                </p>
+            </div>
+
+
+        </section>
+    </div>
+
+    <!-- <div class=" text-center">
+        <button onclick="clickPopup()" class="btn-1">
+            <h3>BOOK YOUR SLOT</h3>
+            <h4><b>GET 30 DAY FREE TRIAL</b></h4>
+        </button>
+    </div> -->
+    <br><br>
+
+    <div class="container-fluid bg-blue text-white">
+        <br>
+        <p class="big-text-white text-center"><b> Music School Marketing Solution</b></p>
+        <h5 class="text-center"><b>"MSMS has been a life-changer
+                for everything sales & marketing with great support."</b></h5>
+        <div class="row justify-content-center par-set">
+            <div class="col-11 col-lg-7">
+
+                <div class=" text-center">
+                    <button onclick="clickPopup()" class="btn-2">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h3><b>BOOK YOUR SLOT</b> </h3>
+                    </button>
+                </div>
+
+                <p style="  text-align: center; color: white;padding: 0 50px; font-size: 24px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+                <br>
+                <h2><i class="bi bi-caret-right-fill"></i><b> DO YOU WANT MORE STUDENTS?</b></h2>
+                <p>With the support of our community, you will know the best strategies the most successful
+                    music
+                    schools are
+                    using to enroll a ton of students online so you don’t have to waste another dollar on
+                    inefficient
+                    marketing.
+                </p>
+                <br>
+                <h2><i class="bi bi-caret-right-fill"></i><b> DO YOU WANT TO KEEP YOUR STUDENTS LONGER?</b></h2>
+                <p>With our all-in-one marketing and sales platform, you will be able to keep your tools in one
+                    place
+                    (while saving a fortune) and streamline your student enrollment process so you can focus on
+                    keeping
+                    your students happy.
+                </p>
+                <br>
+                <h2><i class="bi bi-caret-right-fill"></i><b> DO YOU WANT TO SCALE YOUR SCHOOL?</b></h2>
+                <p>We will help you grow your business by connecting you with the most successful music school
+                    owners on
+                    the planet who will be able to help you automate your marketing, nurture, and fullfillment.
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <br><br>
+
+    <p class="big-text0 text-center"><b>How To Get Students With MSMS</b></p>
+    <h5 style="margin-top:-15px; text-align: center; color: black;"><b>(Music school Marketing Solutions)</b></h5>
+    <br>
+    <h5 class="text-center"><b>Steps To Level Up Your Sales</b></h5>
+
+    <br><br>
+
+    <!--section4 hover tab1 change container -->
+    <div class="container ">
+        <!-- <div class="row d-flex justify-content-center">
+        <div class="col-11 col-lg-9 text-center">
+            <h1><b> Get results with the right campaign</b></h1>
+
+            <br> <br><br>
+        </div>
+    </div> -->
+
+        <div class="row d-flex justify-content-center hov-tab1-set">
+            <div class="col-lg-6 tab1-col">
+
+                <div class="tab1 ">
+                    <a href="#step1"> <button class="tablinks1 active" onmouseover="openCity(event, 'London1')">
+                            <h3 class="text-black">1. Building The Music School Landing Page</h3>
+
+                        </button>
+                    </a>
+                    <a href="#step2"> <button class="tablinks1" onmouseover="openCity(event, 'Paris1')">
+                            <h3>2. Capture New Leads</h3>
+
+                        </button>
+                    </a>
+                    <a href="#step3"> <button class="tablinks1" onmouseover="openCity(event, 'Tokyo1')">
+                            <h3>3. Nurture Leads Into Students</h3>
+
+                        </button>
+                    </a>
+                    <a href="#step4"> <button class="tablinks1" onmouseover="openCity(event, 'Paris1')">
+                            <h3>4. Close More Deals</h3>
+
+                        </button>
+                    </a>
+                    <a href="#step5"> <button class="tablinks1" onmouseover="openCity(event, 'Tokyo1')">
+                            <h3>5. Unparalleled Support</h3>
+
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block ">
+                <div id="London1" class="tabcontent1 tabcontent-1">
+                    <img src="image/search-campaigns.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+
+                <div id="Paris1" class="tabcontent1">
+                    <img src="image/shoping capmp.PNG" loading="lazy" class="img-fluid" alt="">
+                </div>
+
+                <div id="Tokyo1" class="tabcontent1">
+                    <img src="image/display camp.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+                <div id="Paris1" class="tabcontent1">
+                    <img src="image/app camp.PNG" loading="lazy" class="img-fluid" alt="">
+                </div>
+
+                <div id="Tokyo1" class="tabcontent1">
+                    <img src="image/local camp.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+
+            </div>
+            <div class="clearfix1"></div>
+
+        </div>
+    </div>
+
+    <!-- flip box -->
+    <!-- <div class="container">
+
+        <div class="row2">
+            <div class="column2">
+
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/sales.jpg" class="img-fluid" alt="">
+                            <h6 class="mt-3"> Sales</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p>Drive an increase in sale</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="column2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/leads.PNG" class="img-fluid" alt="">
+                            <h6 class="mt-3"> Leads</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p>Reach the right user to get qualified leads</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/website.jpg" class="img-fluid" alt="">
+                            <h6 class="mt-3">website traffic</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p>Get the right people to visit your website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/brand.jpg" class="img-fluid" alt="">
+                            <h6 class="mt-3"> Product and brand consideration</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p> Encourage people to explore what you offer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/reach.jpg" class="img-fluid" alt="">
+                            <h6 class="mt-3"> Brand awareness and reach</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p> Get your brand in front of new customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="image/app.jpg" class="img-fluid" alt="">
+                            <h6 class="mt-3">App promotion</h6>
+                        </div>
+                        <div class="flip-box-back">
+                            <p>Promote your app across Google properties</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+    </div> -->
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    <!--section5  -->
+    <div class="container-fluid">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-5 ">
+                <img src="image/1. Lead-Capture-Automation-for-Social-Media.png" class="img-fluid" alt="">
+                <div class=" text-center mt-4">
+                    <button onclick="clickPopup()" class="btn-1">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h2><b>BOOK YOUR SLOT</b> </h2>
+                    </button>
+                </div>
+                <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+
+            </div>
+
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 par-set text-black">
+                <h2><b>Building The Music School Landing Page</b>
+                </h2>
+                <br>
+
+                <p id="step1">The goal of a landing page is to convert and build a repository of leads that can be
+                    nurtured with more personalized marketing campaigns using email, direct mail, paid ads, or other
+                    types of targeted marketing before those leads reach your sales team to make a purchase.
+                    <br><br>
+                    Landing pages have a sole purpose: to convert leads for your business. However, you can target those
+                    leads using a specific content offer on each landing page.
+                    <br><br>
+                    Capture leads using our landing pages, surveys, forms, calendars, inbound phone system & more!
+                    <br><br>
+                    Automatically message leads via voicemail, forced calls, SMS, emails, FB Messenger & more!
+                </p>
+                <!-- <br>
+                <div class="row justify-content-evenly icon-set1">
+                    <div class="col-12 col-md-6">
+                        <i class="bi bi-check-circle"></i>
+                        <h5> Global Reach</h5>
+                        <p> Upto 100% </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <i class="bi bi-check-circle"></i>
+
+                        <h5> Big Experience </h5>
+                        <p> Expert worker </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <i class="bi bi-check-circle"></i>
+
+                        <h5> Convenience
+                        </h5>
+                        <p> To reach your target </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <i class="bi bi-check-circle"></i>
+
+                        <h5> Team Strength
+                        </h5>
+                        <p> Clients satisfaction</p>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container-fluid">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-5 ">
+                <img src="image/2. Lead-Capture-Automation-Capture-leads-from-Website-and-Chat-Bot.png"
+                    class="img-fluid" alt="">
+                <div class=" text-center mt-4">
+                    <button onclick="clickPopup()" class="btn-1">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h2><b>BOOK YOUR SLOT</b> </h2>
+                    </button>
+                </div>
+                <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+            </div>
+
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 par-set text-black">
+                <h2><b>Capture New Leads</b>
+                </h2>
+                <br>
+
+                <p id="step2">Music School Marketing Solution is THE full suite operations center for music education
+                    businesses for all their online needs.
+                </p>
+                <p style="font-size:17px;"><b>ONLINE APPOINTMENT SCHEDULING</b></p>
+                <p>Use calendars to set and manage appointments and demos. You can create individual calendars for each
+                    team member, or create team calendars for larger projects such as sales teams.
+                    <br><br>
+                    With our workflows, you can also create automated mini-campaigns for no-shows and for appointment
+                    reminders!
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-5 ">
+                <img src="image/3. Lead-Capture-Automation-Capture-Phone-Calls-as-Leads.png" class="img-fluid" alt="">
+                <div class=" text-center mt-4">
+                    <button onclick="clickPopup()" class="btn-1">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h2><b>BOOK YOUR SLOT</b> </h2>
+                    </button>
+                </div>
+                <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+            </div>
+
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 par-set text-black">
+                <h2><b>Nurture Leads Into Students</b>
+                </h2>
+                <br>
+
+                <p id="step3">The backbone of Music School Marketing Solutions is what you're able to accomplish AFTER
+                    you capture the lead.
+                </p>
+                <p style="font-size:17px;"><b>EASILY CUSTOMIZE YOUR FOLLOW-UP CAMPAIGNS</b></p>
+                <p>With MSMS, you'll be able to create automated follow up campaigns to any Lead, Prospect or Student
+                    all in one central place whilst you sleep.
+                </p>
+                <p style="font-size:17px;"><b>CREATE MULTI-CHANNEL CAMPAIGNS</b></p>
+                <p>When a Lead comes in, you could:</p>
+                <p>1) Automatically push a phone call to the lead</p>
+                <p>2) Drop a voicemail to any contact automatically using a pre-recorded message</p>
+                <p>3) Follow up with an automated SMS</p>
+                <p>4) Shoot them a stylish looking Email</p>
+                <p>5) Even send a DM over Instagram/Facebook</p>
+                <p>6) Or all of the above!</p>
+                <p>And any these actions can be scheduled for a particular time, day, or delay.</p>
+
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-5 ">
+                <img src="image/4.Lead-Capture-Automation-Capture-leads-from-PPC-and-Digital-Ads.png" class="img-fluid"
+                    alt="">
+                <div class=" text-center mt-4">
+                    <button onclick="clickPopup()" class="btn-1">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h2><b>BOOK YOUR SLOT</b> </h2>
+                    </button>
+                </div>
+                <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+            </div>
+
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 par-set text-black">
+                <h2><b>Close More Deals</b>
+                </h2>
+                <br>
+
+                <p id="step4">Join a community of other music school owners to learn how they’re being successful and
+                    growing their business with Music School Growth Formula...and how you can do the same too.
+                </p>
+                <p style="font-size:17px;"><b>MANAGE YOUR WORKFLOW AND PIPELINE</b></p>
+                <p>The ability to track the leads in a pipeline has become even easier through our advanced Dashboard.
+                </p>
+                <p>we can keep track of where your leads are and what stage they are in the customer journey.</p>
+                <p style="font-size:17px;"><b>ALL THE ANALYTICS & REPORTS IN ONE PLACE</b></p>
+                <p>Track stats such as appointment rates, ad campaign effectiveness, and even message response rates!
+                </p>
+                <p>Reading the numbers and seeing where the sales process is slowing down is the only way to correctly
+                    diagnose what can be improved or needs to be fixed.</p>
+
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-5 ">
+                <img src="image/4 step of msme.png" class="img-fluid" alt="">
+                <div class=" text-center mt-4">
+                    <button onclick="clickPopup()" class="btn-1">
+                        <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+                        <h2><b>BOOK YOUR SLOT</b> </h2>
+                    </button>
+                </div>
+                <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;">
+                    <b>Only For First 10</b>
+                </p>
+            </div>
+
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 par-set text-black">
+                <h2><b>Unparalleled Support</b>
+                </h2>
+                <br>
+
+                <p id="step5">We provides around-the-clock support and customized support to deliver the best customer
+                    experience.
+                </p>
+                <p>Our highly experienced Support Engineers deliver proactive, professional services 24/7 to increase
+                    your stability, efficiency, and effectiveness. If you have a question, we have an answer.</p>
+                <p style="font-size:17px;"><b>MAKES SWITCHING EASY</b></p>
+                <p>Join our weekly MSMS support session in our Facebook community group where you can get advice on
+                    setting up your account, or get the latest tips, tricks, and tutorials.
+                </p>
+                <p>This is why we've built a searchable help library to make it easy for you navigate your way around
+                    the MSMS and find the feature you're looking for.</p>
+                <p style="font-size:17px;"><b>24/7 SUPPORT</b></p>
+                <p>When you can't find an answer to your question or problem using the help llibrary, you can contact
+                    the support team with world-wide support.
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <!-- <div class="container mt-lg-5">
+        <div class="row justify-content-evenly text-center">
+            <div class="col-lg-5">
+                <h1>
+                    <b> Let’s Check Our Scientific
+                        Marketing solutions</b>
+                </h1>
+
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+  
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-11 par-set">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/linkbuilt.png" alt="">
+                            <br>
+                            <h4><b>Web Development</b> </h4>
+                            <p> Fully Responsive & SEO Website, Landing Pages, Wordpress Development, Plugins
+                                Development, Web App etc.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/social media marketing.png" alt="">
+                            <br>
+                            <h4><b>Social Media Marketing</b> </h4>
+                            <p> Facebook, instagram & LindedIn Marketing that aquires more customer for your
+                                business.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/google adword.png" alt="">
+                            <br>
+                            <h4><b>PPC Advertising</b> </h4>
+                            <p>Advertising on Google with Local Campaigns, Display Campaigns, Search Campaigns &
+                                Shopping Campaigns.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/linkbuilt.png" alt="">
+                            <br>
+                            <h4><b>E-Commerce Services</b> </h4>
+                            <p>E-commerce website development, managing pannel & Amazon Marketing Services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/linkbuilt.png" alt="">
+                            <br>
+                            <h4><b>Graphics Design</b> </h4>
+                            <p> creating your online presence with high quality graphic display to your page
+                                visitor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/linkbuilt.png" alt="">
+                            <br>
+                            <h4><b>Branding</b> </h4>
+                            <p>Build your powerfull brand that makes your good impression & gain trust of
+                                valueable
+                                customers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/linkbuilt.png" alt="">
+                            <br>
+                            <h4><b>Video Editing</b> </h4>
+                            <p>Create your business impact with sort/ video, 2D/3D Animation, White Board
+                                Animation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="column3">
+                            <img src="image/seo.png" alt="">
+                            <br>
+                            <h3><b>SEO</b> </h3>
+                            <p>Get your content/website in first rank to get more traffic that give you more
+                                organic
+                                leads. </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!--section4 hover tab1 change container -->
+    <!-- <div class="container mt-lg-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-11 col-lg-9 text-center">
+                <h1><b> Get results with the right campaign</b></h1>
+
+                <br> <br><br>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center hov-tab1-set">
+            <div class="col-lg-6 tab1-col">
+
+                <div class="tab1">
+                    <button class="tablinks1 active" onmouseover="openCity(event, 'London1')">
+                        <h3>Search Campaigns</h3>
+                        <p>Show up when people search for what you offer.</p>
+                    </button>
+                    <button class="tablinks1" onmouseover="openCity(event, 'Paris1')">
+                        <h3>Shopping Campaigns</h3>
+                        <p>Show off your online and local inventory.</p>
+                    </button>
+                    <button class="tablinks1" onmouseover="openCity(event, 'Tokyo1')">
+                        <h3>Display Campaigns</h3>
+                        <p>Capture attention with compelling visual ads.</p>
+                    </button>
+                    <button class="tablinks1" onmouseover="openCity(event, 'Paris1')">
+                        <h3>App Campaigns</h3>
+                        <p>Promote your app to the right people.</p>
+                    </button>
+                    <button class="tablinks1" onmouseover="openCity(event, 'Tokyo1')">
+                        <h3>Local Campaigns</h3>
+                        <p>Promote your physical locations across Google
+
+                            ` </p>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block ">
+                <div id="London1" class="tabcontent1 tabcontent-1">
+                    <img src="image/search-campaigns.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+
+                <div id="Paris1" class="tabcontent1">
+                    <img src="image/shoping capmp.PNG" loading="lazy" class="img-fluid" alt="">
+                </div>
+
+                <div id="Tokyo1" class="tabcontent1">
+                    <img src="image/display camp.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+                <div id="Paris1" class="tabcontent1">
+                    <img src="image/app camp.PNG" loading="lazy" class="img-fluid" alt="">
+                </div>
+
+                <div id="Tokyo1" class="tabcontent1">
+                    <img src="image/local camp.PNG" loading="lazy" class="img-fluid " alt="">
+                </div>
+
+            </div>
+            <div class="clearfix1"></div>
+
+        </div>
+    </div> -->
+
+
+    <div class="container-fluid bg-blue text-white ">
+        <br>
+        <div class="row justify-content-evenly">
+            <div class=" col-lg-5">
+                <h2><b>Join The MSMS Movement</b></h2>
+                <p>Our thriving community of the most successful and visionary music school owners on the planet. Get
+                    all the training and resources you need to start or grow your business.</p>
+                <p style="font-size:18px;"><b>BY MUSIC TEACHERS, FOR MUSIC TEACHERS</b></p>
+
+                <p>Drawing from our experience in music education to establish a marketing agency for music schools,
+                    we've since worked with over 50+ clients in the music education space.</p>
+                <p>Music School Marketing Solution was built to focus and solve the traditional marketing issues music
+                    schools face on a daily basis.</p>
+                <p>Instead, we want to give all music school businesses the same access and opportunity to take
+                    advantage of our most powerful tools, no matter what stage their business is at.</p>
+            </div>
+            <div class=" col-lg-5">
+                <p style="font-size:18px;"><b>NETWORK WITH OTHER SUCCESSFUL MUSIC TEACHERS</b></p>
+                <p>Our Facebook Community is a network of 'solopreneur' private music teacher all the way to the owners
+                    of the largest music schools in the world.
+                </p>
+                <p>Learn tips and ideas of what other schools are doing with MSMS all within the community</p>
+                <br>
+                <h4 class="text-center"><b><i>Join Our Facebook Community</i></b></h4>
+                <div class=" text-center">
+                    <a href="https://www.facebook.com/groups/269422678564423/?ref=share" target="_blank"
+                        style="text-decoration: none;">
+                        <button class="btn-3">
+                            <h2><b>JOIN NOW</b> </h2>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <br><br>
+
+
+    <!-- you tube video -->
+    <div class="container-fluid video-bg">
+        <h1 class="text-center"><b>TESTIMONIALS</b></h1>
+        <br>
+        <div class="row justify-content-evenly mt-lg-3">
+
+            <div class="wrapper col-10 col-lg-5 ">
+
+                <iframe src="https://www.youtube.com/embed/vLbura0tUqs" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+
+            <h3 class="text-center mt-3 text-black"><b>26 Students Per Month</b></h3>
+            <p class="text-center">Musikskolan Stockholm - Adam Skinner</p>
+
+            <div class="wrapper col-10 col-lg-5 mt-4 ">
+                <iframe src="https://www.youtube.com/embed/pgLtt4IAfqI" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <h3 class="text-center mt-3 text-black"><b>51 Students in first Month</b></h3>
+            <p class="text-center">Expressions Music Academy - Jessica Schatz</p>
+        </div>
+
+
+    </div>
+
+    <br>
+    <div class=" text-center mt-2">
+        <button onclick="clickPopup()" class="btn-1">
+            <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+            <h2><b>BOOK YOUR SLOT</b> </h2>
+        </button>
+    </div>
+    <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;"><b>Only For First
+            10</b> </p>
+    <br><br>
+    <div class="container-fluid video-bg ">
+
+        <br>
+        <div class="row justify-content-evenly ">
+
+            <div class="wrapper col-10 col-lg-5 ">
+
+                <iframe src="https://www.youtube.com/embed/hi2dYh05f0U" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+            <h3 class="text-center mt-3 text-black"><b>40 Leads in 5 Days</b></h3>
+            <p class="text-center">Virtual Studio - Abigail Nickell</p>
+
+
+            <div class="wrapper col-10 col-lg-5 mt-4 ">
+                <iframe src="https://www.youtube.com/embed/3KTebXgoxeg" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+
+            <h3 class="text-center mt-3 text-black"><b>40 Leads in 24 Hours</b></h3>
+            <p class="text-center">BW Music - Brenton WIlliams</p>
+
+
+            <div class="wrapper col-10 col-lg-5 mt-4 ">
+                <iframe src="https://www.youtube.com/embed/fr6-n1dh33I" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+            <h3 class="text-center mt-3 text-black"><b>28 Students in 8 Weeks</b></h3>
+            <p class="text-center">Voce Musik Digital - Thomas Stearn</p>
+        </div>
+
+
+    </div>
+
+    <br>
+    <div class=" text-center mt-2">
+        <button onclick="clickPopup()" class="btn-1">
+            <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+            <h2><b>BOOK YOUR SLOT</b> </h2>
+        </button>
+    </div>
+    <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;"><b>Only For First
+            10</b> </p>
+
+    <br><br>
+    <div class="container">
+        <img src="image/rate-img.png" class="mx-auto d-block img-fluid">
+    </div>
+
+
+
+
+    <br>
+    <div class=" text-center mt-2">
+        <button onclick="clickPopup()" class="btn-1">
+            <h4><b><i> Get 30 Day Free Trial</i></b></h4>
+            <h2><b>BOOK YOUR SLOT</b> </h2>
+        </button>
+    </div>
+    <p style="  text-align: center; color: black;padding: 0 10px; font-size: 26px; margin-top: 10px;"><b>Only For First
+            10</b> </p>
+
+    <!-- <div class="container-fluid mt-lg-4">
+        <div class="row  justify-content-center  ">
+
+            <div class="col-11 col-lg-4 ">
+                <img src="image/research.png" class="img-r" alt="">
+            </div>
+
+
+            <div class="col-11 col-lg-5 mt-5 mt-lg-0  pad-l1 icon-set2">
+                <h2>We love What we Do
+                    And <b>Helping others Succeed </b>
+                </h2>
+                <br>
+
+                <i class="bi bi-arrow-up-right-square-fill"></i>
+                <h5><b> 01. Research</b> </h5>
+                <p>Offshore Remote Teams are committed to work as your dedicated team, working from our
+                    location. This
+                    remote model is great when you are looking for 100% control over your resources &
+                    priorities, having
+                    someone looking after for you.</p>
+                <br>
+                <i class="bi bi-arrow-up-right-square-fill"></i>
+                <h5><b> 02. Data Collection</b> </h5>
+                <p> MSMS Team collect right sources to generate more leads that are more likely to make high
+                    conversion.</p>
+                <br>
+                <i class="bi bi-arrow-up-right-square-fill"></i>
+                <h5><b> 03. Targeting</b> </h5>
+                <p> We provide best-in-class landing pages,SEO website, banners, google ads, Social media
+                    Marketing &
+                    Bulk Marketing that target right people to achieve your business goal. </p>
+                <br>
+
+
+            </div>
+
+        </div>
+    </div> -->
+    <br><br>
+    <div class="container-fluid pt-4 pb-5 award-bgset">
+        <!-- desktop award -->
+        <div class="row justify-content-evenly hide">
+            <div class="col-lg-9">
+                <div class="row justify-content-evenly ">
+                    <div class="col-4 col-lg-2  p-lg-4">
+                        <img src="image/award-1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2  p-lg-4">
+                        <img src="image/award-2.png" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-4 col-lg-2  mt-lg-0  p-lg-4">
+                        <img src="image/award-3.png" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-4 col-lg-2  mt-lg-0  p-lg-4">
+                        <img src="image/award-4.png" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-4 col-lg-2  mt-lg-0  p-lg-4">
+                        <img src="image/award-5.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mobile award carousel -->
+        <div id="carouselExampleControls" class="carousel slide d-block d-lg-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <img src="image/award-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="image/award-5.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="image/award-2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <img src="image/award-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="image/award-4.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-11 col-lg-9">
+                <p style="font-size: calc(16px + 0.8vw); text-align:center">
+                    MSMS is one of the largest, globally recognized outsourcing agencies in the industry, empowering
+                    businesses across the globe to build a better digital ecosystem.
+
+                    <br>
+                    Our pool of in-house talent provides a one-stop shop for agencies and brands who require reliable,
+                    cost-effective, and scalable solutions across a range of web development and digital marketing
+                    specializations.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+
+
+    <!-- success story -->
+    <!-- <div class="container mt-lg-4">
+        <div class="row justify-content-evenly text-center">
+            <div class="col-lg-7">
+                <h2 style="font-size: calc(17px + 1.8vw);" class="text-center">Make the most of our lead
+                    generation
+                    resources</h2>
+                <p class="text-center">Read useful articles and success stories to see how others are generating
+                    high-quality
+                    leads with Google Ads.
+                </p>
+                <br><br><br>
+            </div>
+        </div>
+        <section id="testim" class="testim">
+
+            <div class="wrap">
+
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                <ul id="testim-dots" class="dots">
+                    <li class="dot active"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+
+                </ul>
+
+                <div id="testim-content" class="cont ">
+
+                    <div class="active">
+                        <div class="row">
+                            <div style="text-align: left;" class="col-11 px-5 col-lg-8 ">
+                                <p class="success-sto">SUCCESS STORY</p>
+
+                                <p class="success-sto-down">Schmidt’s Naturals drives awareness for its
+                                    vegan products on YouTube
+                                </p>
+                            </div>
+                            <div class="col-11 px-5 col-lg-4 mt-4 mt-lg-0">
+                                <p class="sliding-no"> 48%</p>
+                                <p class="sliding-no-down">uplift in brand awareness</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="row">
+                            <div style="text-align: left;" class="col-11 px-5 col-lg-8 ">
+                                <p class="success-sto">SUCCESS STORY</p>
+
+                                <p class="success-sto-down">Purple boosts mattress orders with audience
+                                    targeting on
+                                    YouTube
+                                </p>
+                            </div>
+                            <div class="col-11 px-5 col-lg-4 mt-4 mt-lg-0">
+                                <p class="sliding-no"> 34.6%</p>
+                                <p class="sliding-no-down">boost in brand consideration</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="row">
+                            <div style="text-align: left;" class="col-11 px-5 col-lg-8 ">
+                                <p class="success-sto">SUCCESS STORY</p>
+
+                                <p class="success-sto-down">William Sonoma drives sales by investing in mobile
+                                    advertising
+                                </p>
+                            </div>
+                            <div class="col-11 px-5 col-lg-4 mt-4 mt-lg-0">
+                                <p class="sliding-no"> 70%</p>
+                                <p class="sliding-no-down">increase in mobile sales</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </div> -->
+
+
+
+
+
+
+
+    <div class="container text-center market-obj">
+        <div class="row d-flex justify-content-center">
+            <div class="col-11 col-lg-8">
+                <h1>Achieve your marketing objectives today</h1> <br>
+
+                <p>Schedule a Meeting with our ad Expert to get Free Trial
+                </p>
+                <p onclick="clickPopup()" style="color: #1a73e8;"><b> Schedule a meeting</b></p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+
+
+    <div id="contact-form" class="container">
+        <!-- <h3 class="text-center">Request Infonrmation</h3> -->
+        <div id="meet" class="row justify-content-center">
+            <div class="col-11 col-lg-6">
+                <form action="mail3.php" method="POST" class="form text-center">
+                    <div class="mb-3 mt-3">
+                        <input name="schoolName" type="text" class="form-control p-3 rounded-50"
+                            id="exampleFormControlInput1" placeholder="School Name" required>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <input name="name" type="text" class="form-control p-3 rounded-50" id="exampleFormControlInput1"
+                            placeholder="Full name" required>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <input name="email" type="email" class="form-control p-3" id="exampleFormControlInput1"
+                            placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+
+                        <input name="mobileNo" type="text" class="form-control p-3" id="exampleFormControlInput1"
+                            placeholder="phone no." required>
+                    </div>
+                    <button type="submit" name="submit" class="btn-lg form-button text-white">
+                        Book Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+
+    <footer style="font-family: Arial, Helvetica, sans-serif; background-color: aliceblue;">
+
+        <div class="container arial-font foot-font-size pt-4 pt-lg-4 mt-5">
+            <div class="row justify-content-evenly ">
+                <div class="col-12 col-lg-4 d-block icon-info">
+                    <img id="foot-logo" src="image/MSMS LOGO.png" width="150px" height="60px" class=" mb-4" alt="">
+                    <p>"Music School Marketing Solution(MSMS) has been a life-changer
+                        for everything sales marketing with great support."
+
+                        We are the only full service Marketing Agency, that gives you reliable, cost-effective, and
+                        scalable solutions across a range of web development and digital marketing specializations.
+
+                    </p>
+                    <div class="row  mt-3">
+
+                        <div class="col-12 footer-icon mb-2 mt-4 d-none d-lg-block ">
+                            <a> <i class="bi bi-facebook p-1 "></i>
+                            </a>
+                            <a> <i class="bi bi-youtube p-1"></i></a>
+                            <a>
+                                <i class="bi bi-instagram p-1"></i> </a>
+                            <a> <i class="bi bi-linkedin p-1"></i>
+                            </a>
+                            <a> <i class="bi bi-twitter text-white p-1"></i> </a>
+                            <a> <i class="bi bi-geo-alt-fill  p-1"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class=" col-lg-4 d-block link-line ">
+
+                    <div class="row  ">
+                        <div class="col-6 ">
+                            <h5><b> Services</b></h5>
+
+
+                            <a>
+                                <p>SEO Service</p>
+                            </a>
+                            <a>
+                                <p>SMM Service</p>
+                            </a>
+                            <a>
+                                <p>Web Development</p>
+                            </a>
+                            <a>
+                                <p>PPC(adword) </p>
+                            </a>
+
+
+                            <a>
+                                <p>Graphics Design</p>
+                            </a>
+                            <a>
+                                <p>Bulk Marketing</p>
+                            </a>
+                            <a>
+                                <p>Video Editing</p>
+                            </a>
+                            <a>
+                                <p>App Development</p>
+                            </a>
+                            <a>
+                                <p>E-commerce Service</p>
+                            </a>
+
+
+                        </div>
+                        <!-- <div class="col-6 ">
+                            <h5><b> About Us</b></h5>
+                            <br>
+                            <a href="whyChooseUs.html">
+                                <p>Our Story </p>
+                            </a>
+                            <a href="whyChooseUs.html">
+                                <p>Our Team</p>
+                            </a>
+                            <a href="portfolio.html">
+                                <p>Portfolio</p>
+                            </a>
+                            <a href="testimonial.html">
+                                <p>Testimonials </p>
+                            </a>
+
+
+
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 d-block locat01">
+                    <h5 class="mt-3 mt-lg-0"><b> Contact Us</b></h5>
+                    <br>
+                    <div>
+
+                        <h6><img src="image/india.jpg" width="25px" height="15px" alt=""> India</h6>
+
+                        <h6 class="footer-icon"><i class="bi bi-geo-alt-fill p-1 "></i> 4, Geeta Colony, New Delhi,
+                            Delhi 110031 </h6>
+
+                        <h6> <a href="tel:+919650337419" style="color: black;" class="footer-icon "><i
+                                    class="bi bi-telephone-fill p-1 "></i>
+                                +91 (9650) 337-419</a></h6>
+                        <p> <a href="mailto:admin@musicschoolmarketingsolution.com" style="color: black;"
+                                class="footer-icon "><i class="bi bi-envelope-open-fill p-1 "></i>
+                                admin@musicschoolmarketingsolution.com</a></p>
+                    </div>
+                    <br>
+                    <div>
+
+                        <h6><img src="image/america.jpg" width="25px" height="15px" alt=""> USA</h6>
+                        <h6 class="footer-icon"><i class="bi bi-geo-alt-fill p-1 "></i> Skyway Circle North Irving, TX
+                            75038 </h6>
+
+                        <h6> <a href="tel:+12093227262" style="color: black;" class="footer-icon "><i
+                                    class="bi bi-telephone-fill p-1 "></i>
+                                +1 (2093) 227-262</a></h6>
+                        <p> <a href="mailto:info@musicschoolmarketingsolution.com" style="color: black;"
+                                class="footer-icon "><i class="bi bi-envelope-open-fill p-1 "></i>
+                                info@musicschoolmarketingsolution.com</a></p>
+                    </div>
+                    <br>
+
+
+                </div>
+            </div>
+
+            <hr class="mt-lg-4">
+            <div class="row mb-lg-2">
+                <div class="col-12 col-lg-4 d-lg-none footer-icon mb-2 order-lg-2  text-center ">
+                    <a> <i class="bi bi-facebook rounded-circle p-1 "></i>
+                    </a>
+                    <a> <i class="bi bi-youtube rounded-circle p-1"></i></a>
+                    <a>
+                        <i class="bi bi-instagram rounded-circle p-1"></i> </a>
+                    <a> <i class="bi bi-linkedin rounded-circle p-1"></i> </a>
+                    <a> <i class="bi bi-twitter text-white rounded-circle p-1"></i> </a>
+                    <a> <i class="bi bi-geo-alt-fill rounded-circle p-1"></i> </a>
+                </div>
+                <div class="col-12 col-lg-8  order-lg-1 rights ">
+                    <p>All Images & text property Copyright @2022 MSMS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div id="copyright">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p>Copyright@ddigifyleads</p>
+        </div>
+    </footer>
+
+    <!-- <footer>
+        <div id="copyright">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p>Copyright@MSMS</p>
+        </div>
+    </footer> -->
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
+        </script>
+
+    <!-- jQuery script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jQuery coutner additional script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- owl carousel script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- manual control of owl carousel -->
+
+
+    <!-- owl carousel 2 -->
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            // nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            stagePadding: 5,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1200: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+    <!-- jquery counter manual script -->
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1300
+            });
+        });
+    </script>
+
+    <!-- counter cdn script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+
+    <!-- hover tab -->
+    <script src="hovertab1.js"></script>
+
+    <!-- font awsome script -->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+    <!-- testimonial -->
+    <script>
+        // vars
+        'use strict'
+        var testim = document.getElementById("testim"),
+            testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+            testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+            testimLeftArrow = document.getElementById("left-arrow"),
+            testimRightArrow = document.getElementById("right-arrow"),
+            testimSpeed = 5000,
+            currentSlide = 0,
+            currentActive = 0,
+            testimTimer,
+            touchStartPos,
+            touchEndPos,
+            touchPosDiff,
+            ignoreTouch = 30;
+        ;
+
+        window.onload = function () {
+
+            // Testim Script
+            function playSlide(slide) {
+                for (var k = 0; k < testimDots.length; k++) {
+                    testimContent[k].classList.remove("active");
+                    testimContent[k].classList.remove("inactive");
+                    testimDots[k].classList.remove("active");
+                }
+
+                if (slide < 0) {
+                    slide = currentSlide = testimContent.length - 1;
+                }
+
+                if (slide > testimContent.length - 1) {
+                    slide = currentSlide = 0;
+                }
+
+                if (currentActive != currentSlide) {
+                    testimContent[currentActive].classList.add("inactive");
+                }
+                testimContent[slide].classList.add("active");
+                testimDots[slide].classList.add("active");
+
+                currentActive = currentSlide;
+
+                clearTimeout(testimTimer);
+                testimTimer = setTimeout(function () {
+                    playSlide(currentSlide += 1);
+                }, testimSpeed)
+            }
+
+            testimLeftArrow.addEventListener("click", function () {
+                playSlide(currentSlide -= 1);
+            })
+
+            testimRightArrow.addEventListener("click", function () {
+                playSlide(currentSlide += 1);
+            })
+
+            for (var l = 0; l < testimDots.length; l++) {
+                testimDots[l].addEventListener("click", function () {
+                    playSlide(currentSlide = testimDots.indexOf(this));
+                })
+            }
+
+            playSlide(currentSlide);
+
+            // keyboard shortcuts
+            document.addEventListener("keyup", function (e) {
+                switch (e.keyCode) {
+                    case 37:
+                        testimLeftArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    default:
+                        break;
+                }
+            })
+
+            testim.addEventListener("touchstart", function (e) {
+                touchStartPos = e.changedTouches[0].clientX;
+            })
+
+            testim.addEventListener("touchend", function (e) {
+                touchEndPos = e.changedTouches[0].clientX;
+
+                touchPosDiff = touchStartPos - touchEndPos;
+
+                console.log(touchPosDiff);
+                console.log(touchStartPos);
+                console.log(touchEndPos);
+
+
+                if (touchPosDiff > 0 + ignoreTouch) {
+                    testimLeftArrow.click();
+                } else if (touchPosDiff < 0 - ignoreTouch) {
+                    testimRightArrow.click();
+                } else {
+                    return;
+                }
+
+            })
+        }
+    </script>
+
+    <script src="popup.js"></script>
+    <script src="typingScript.js"></script>
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/626bd5547b967b11798d1a07/1g1qjilf1';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+</body>
+
+</html>
